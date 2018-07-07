@@ -1,0 +1,43 @@
+#header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}  
+
+#header-img {
+  margin: 10 1000 10 60;
+  
+}
+
+#nav-bar  {
+   font-size: 20px;
+   
+}  
+
+
+.nav-link {
+  /*font-family: Lucida Bright; */
+  color:black;
+  padding:0px 40px; 
+  text-align:center;
+  font-family: 'Roboto Slab', serif; 
+  text-decoration:none;
+  letter-spacing:1px; 
+  font-weight:700;
+}
+
+ul {
+    display: flex;
+  
+}
+
+li {
+  list-style: none;
+  margin:0px 45px;
+}
+
+
+
+
