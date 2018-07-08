@@ -77,22 +77,62 @@ h3 {
   width: 280px;
   padding: 5px;
   margin: 10px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid blue;
   border-radius: 2px;
 }
 
 #submit {
-  background-color: #f1f1f1;
+  background-color: lightblue;
   /*border-radius: 4px;*/
-  color: black;
+  color: blue;
   font-size: 1em;
   height: 30px;
   width: auto;
   margin: 10px;
-  border: 0px solid;
+  border: 2px solid;
 }
 
 .detailes {
-  margin: 60 0 60 0;
+  margin: 60 40 60 40;
+  /*padding: 20 0 20 0;*/
+
 }
 
+p {
+  font-size: 20px;
+  text-align: left;
+  margin: 0 70 0 70;
+}
+
+
+.grid-container {
+  display: flex;
+  /*background-color: #2196F3;*/
+  margin: 0 100 0 100;
+  padding: 0 0 50 0;
+}
+
+.fa-4x {
+  font-size: 4em;
+  
+
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+
+   color: blue;
+}
+
+.feature {
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+ 
