@@ -7,8 +7,7 @@ body {
 }
 
 #header {
-  /*overflow: hidden;*/
-  /*position: fixed;*/
+  
   background-color: #f1f1f1;
   padding: 20px 10px;
 }
@@ -45,6 +44,7 @@ body {
 
 #nav-bar {
   float: right;
+
 }
 
 .nav-link {
@@ -129,7 +129,10 @@ p {
   font-size: 30px;
 }
 
-
+video {
+  width: 70%;
+  height: auto;
+}
 
 
 
