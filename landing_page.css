@@ -2,15 +2,17 @@
 
 
 body { 
-  margin: 0;
+  /*margin: 0;*/
   font-family: Arial;
 }
 
 
 
 #header {
-  /*position: fixed;*/
-    /*top: 0;*/
+  position: fixed;
+    top: 0;
+    width: 95%;
+
 /*display: flex;*/
     /*min-height: 75px;*/
 
@@ -24,7 +26,7 @@ body {
   /*width: 60vw;*/
 }
 
-#header .nav-link {               
+.nav-link {               
   /*float: left;*/
   color: black;
   /*text-align: center;*/
@@ -76,6 +78,10 @@ body {
 .nav-link {
   /*margin: 0 45 0 45;*/
 
+}
+
+#program {
+  padding: 10 0px;
 }
 
 @media screen and (max-width: 500px) {
