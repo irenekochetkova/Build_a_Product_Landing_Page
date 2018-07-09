@@ -6,22 +6,42 @@ body {
   font-family: Arial;
 }
 
+
+
 #header {
-  
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+  /*position: fixed;*/
+    /*top: 0;*/
+/*display: flex;*/
+    /*min-height: 75px;*/
+
+
+  /*background-color: #f1f1f1;*/
+  /*padding:  20px;*/
+  /*margin: 10px;*/
+}
+
+.logo {
+  /*width: 60vw;*/
 }
 
 #header .nav-link {               
-  float: left;
+  /*float: left;*/
   color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
+  /*text-align: center;*/
+  /*padding: 12px;*/
+  /*text-decoration: none;*/
   font-size: 20px; 
-  line-height: 25px;
-  border-radius: 4px;
+  /*line-height: 25px;*/
+  /*border-radius: 4px;*/
 }
+
+ #box-container {
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 /*#header a.logo {
   font-size: 25px;
@@ -40,36 +60,48 @@ body {
 .wrapper {
   padding-left: 3%;
   padding-right: 3%;
+
+}
+
+.posit {
+  display: flex;
+  align-items: center;
 }
 
 #nav-bar {
-  float: right;
-
+  /*float: right;*/
+ 
 }
 
 .nav-link {
-  margin: 0 45 0 45;
+  /*margin: 0 45 0 45;*/
 
 }
 
 @media screen and (max-width: 500px) {
-  #header .nav-link {
+ /* #header .nav-link {
     float: none;
     display: block;
-    text-align: left;
+    text-align: left;*/
   }
   #nav-bar {
-    float: none;
+    /*float: none;*/
   }
 }
 .container {
-  padding: 12px;
-  text-align: center;
+
+ /* padding: 12px;
+  text-align: center;*/
 }
+
+
+
 
 h3 {
   font-weight: bold;
   font-size: 30px;
+  text-align: center ;
+  padding: 20px;
 }
 
 .input-field {
@@ -132,9 +164,12 @@ p {
 video {
   width: 70%;
   height: auto;
+  
 }
 
-
+#video {
+  text-align: center;
+}
 
 
 
