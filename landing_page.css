@@ -1,26 +1,34 @@
-
-
-
 body { 
-  /*margin: 0;*/
-  font-family: Arial;
+  margin: 0;
+  font-family: Old Standard TT;
 }
-
-
 
 #header {
   position: fixed;
-    top: 0;
-    width: 95%;
-
-/*display: flex;*/
-    /*min-height: 75px;*/
-
-
-  /*background-color: #f1f1f1;*/
-  /*padding:  20px;*/
-  /*margin: 10px;*/
+  top: 0;
+  width: 95%;
 }
+
+.fa-2x {
+  font-size: 2em;
+} 
+
+.header-img i {
+  color: black;
+
+  }
+.header-img h5 {
+  margin:  10px;
+  font-size: 25px;
+  color: black;
+}
+
+.header-img {
+  display: flex;
+  align-items: center;
+  color: blue;
+}
+
 
 .logo {
   /*width: 60vw;*/
@@ -81,7 +89,7 @@ body {
 }
 
 #program {
-  padding: 10 0px;
+  padding: 100px;
 }
 
 @media screen and (max-width: 500px) {
@@ -96,8 +104,8 @@ body {
 }
 .container {
 
- /* padding: 12px;
-  text-align: center;*/
+  padding: 12px;
+  text-align: center;
 }
 
 
@@ -152,15 +160,14 @@ p {
 
 .fa-4x {
   font-size: 4em;
-  
-
 }
+
+
 
 .icon {
   display: flex;
   align-items: center;
-
-   color: blue;
+  color: blue;
 }
 
 .feature {
