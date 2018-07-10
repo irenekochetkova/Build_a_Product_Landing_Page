@@ -1,5 +1,5 @@
 body { 
-  margin: 0;
+  margin: 0px;
   font-family: Old Standard TT;
 }
 
@@ -10,30 +10,36 @@ body {
   padding: 20px 40px 20px  40px;
 }
 
-.fa-3x {
-  font-size: 3em;
-} 
 
-.header-img i {
-  color: black;
 
-  }
-.header-img h5 {
+.logo img {
+
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px; 
+}
+
+.logo h5 {
   margin:  10px;
   font-size: 25px;
   color: black;
 }
 
-.header-img {
+.logo {
   display: flex;
 }
 
 #nav-bar {
-  font-size: 23px;
+  font-size: 20px;
 }
 .nav-link {               
   color: black;
-  font-size: 25px; 
+  font-size: 23px; 
+
 }
 
  #box-container {    
@@ -78,23 +84,21 @@ h3 {
  }
 
 .detailes {
-  margin: 60 40 0 40;
-  padding: 20 0 20 0;
+  margin: 60px 40px 0px 40px;
+  padding: 20px 0px 20px 0px;
 
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
-  margin: 0 70 0 70;
+  margin: 0px 70px 0px 70px;
 }
 
 
 .grid-container {
   display: flex;
-  /*background-color: #2196F3;*/
-  /*margin: 0 30 0 30;*/
-  padding: 0 0 50 0;
+  padding: 0px 0px 50px 0px;
 }
 
 .fa-4x {
@@ -117,10 +121,10 @@ video {
   
 }
 
-#video {
+#masterclass {
   text-align: center;
 
-  padding: 20 0 90 20;
+  padding: 20px 0px 90px 20px;
 }
 
 h4 {
@@ -129,7 +133,7 @@ h4 {
 }
 
 #price {
-  padding:0 0 20 0;
+  padding:0px 0px 40px 0px;
 }
 
 .card-body {
@@ -153,4 +157,10 @@ h4 {
    width: 100%;
    color: white;
    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
 }
