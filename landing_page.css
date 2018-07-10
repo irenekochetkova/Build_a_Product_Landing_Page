@@ -6,12 +6,12 @@ body {
 #header {
   position: fixed;
   top: 0;
-  width: 95%;
-  padding: 12px 0px 0px  0px;
+  width: 100%;
+  padding: 20px 40px 20px  40px;
 }
 
-.fa-2x {
-  font-size: 2em;
+.fa-3x {
+  font-size: 3em;
 } 
 
 .header-img i {
@@ -28,10 +28,12 @@ body {
   display: flex;
 }
 
-
+#nav-bar {
+  font-size: 23px;
+}
 .nav-link {               
   color: black;
-  font-size: 20px; 
+  font-size: 25px; 
 }
 
  #box-container {    
@@ -41,11 +43,7 @@ body {
     justify-content: center;
   }
 
-.wrapper {
-  padding-left: 3%;
-  padding-right: 3%;
 
-}
 
 .posit {
   display: flex;
@@ -58,15 +56,6 @@ body {
 }
 
 
-.container {
-
-  padding: 12px;
-  text-align: center;
-}
-
-
-
-
 h3 {
   font-weight: bold;
   font-size: 30px;
@@ -75,24 +64,18 @@ h3 {
 }
 
 .input-field {
-  height: 30px;
+  height: 40px;
   width: 280px;
   padding: 5px;
   margin: 10px;
-  border: 1px solid blue;
+  border: 1px solid ;
   border-radius: 2px;
 }
 
 #submit {
-  background-color: lightblue;
-  /*border-radius: 4px;*/
-  color: blue;
-  font-size: 1em;
-  height: 30px;
-  width: auto;
-  margin: 10px;
-  border: 2px solid;
-}
+  height: 40px;
+  width: 70px;
+ }
 
 .detailes {
   margin: 60 40 0 40;
@@ -137,12 +120,20 @@ video {
 #video {
   text-align: center;
 
-  padding: 20 0 20 20;
+  padding: 20 0 90 20;
 }
 
 h4 {
   font-weight: bold;
   font-size: 1.7em;
+}
+
+#price {
+  padding:0 0 20 0;
+}
+
+.card-body {
+  text-align: center;
 }
 
 .card {
@@ -156,4 +147,10 @@ h4 {
   text-align: center;
 }
 
- 
+.footer {
+  padding: 20px 40px 20px  40px;
+  bottom:0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
